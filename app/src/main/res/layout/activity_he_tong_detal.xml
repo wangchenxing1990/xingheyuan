@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.xhy.xhyapp.myactivity.HeTongDetalActivity">
+    <RelativeLayout
+        android:id="@+id/my_ht_detal_back"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#3fc199"
+        >
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            >
+            <ImageView
+                android:id="@+id/Ht_back"
+                android:layout_width="12dp"
+                android:layout_height="20dp"
+                android:src="@drawable/back_collect"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/my_ht_detal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合同管理"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/my_ht_webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+</LinearLayout>

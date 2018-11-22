@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/relative_phone"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/re_phone"
+        android:layout_width="340dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/shape03">
+        <RelativeLayout
+            android:id="@+id/rl_phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="25dp"
+            android:text="手机号:"
+            android:textColor="#0d2432"
+            android:textSize="15sp"
+            android:id="@+id/textView26" />
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13502895046"
+            android:layout_marginLeft="10dp"
+            android:textColor="#747474"
+            android:textSize="15sp"
+            android:layout_alignTop="@+id/textView26"
+            android:layout_toRightOf="@+id/textView26"
+            android:layout_toEndOf="@+id/textView26" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="27dp"
+            android:layout_below="@+id/rl_phone"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#230230"></View>
+        <RelativeLayout
+            android:id="@+id/rl_yanzheng"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/rl_phone">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="输入验证码"
+                android:textColor="#747474"
+                android:textSize="13sp"
+                android:id="@+id/textView27"
+                android:inputType="number"
+                android:background="@null"
+                android:layout_marginLeft="29dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/edit_phone_huoqu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取验证码"
+                android:textColor="#0d2432"
+                android:textSize="15sp"
+                android:layout_marginRight="27dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="27dp"
+            android:layout_below="@+id/rl_yanzheng"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#230230"></View>
+        <RelativeLayout
+            android:layout_below="@+id/rl_yanzheng"
+            android:id="@+id/newphone_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0d2432"
+                android:textSize="15sp"
+                android:text="手机号:"
+                android:layout_marginLeft="29dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView28" />
+            <EditText
+                android:id="@+id/edit_phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="13sp"
+                android:textColor="#747474"
+                android:inputType="number"
+                android:hint="请输入更改的手机号"
+                android:layout_marginLeft="10dp"
+                android:layout_alignBottom="@+id/textView28"
+                android:layout_toRightOf="@+id/textView28"
+                android:layout_toEndOf="@+id/textView28" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="27dp"
+            android:layout_below="@+id/newphone_rl"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#230230"
+            android:id="@+id/view2"></View>
+        <Button
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textColor="#3fc199"
+            android:text="取消"
+            android:background="@drawable/lvbiankuang"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/view2"
+            android:layout_alignStart="@+id/view2"
+            android:id="@+id/btn_phone_cancel" />
+        <Button
+            android:id="@+id/btn_phone_sure"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textColor="#3fc199"
+            android:text="确定"
+            android:background="@drawable/lvbiankuang"
+            android:layout_alignTop="@+id/btn_phone_cancel"
+            android:layout_alignRight="@+id/view2"
+            android:layout_alignEnd="@+id/view2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/re_phone"></RelativeLayout>
+</RelativeLayout>

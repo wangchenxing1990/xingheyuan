@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.xhy.xhyapp.storeactivity.LogisticsActivity">
+
+    <RelativeLayout
+        android:id="@+id/re_first"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fafafa">
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            >
+            <ImageView
+                android:id="@+id/iv_shop_back"
+                android:layout_width="12dp"
+                android:layout_height="20dp"
+                android:src="@drawable/fanhuijianhei"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="物流信息"
+            android:textColor="#a5a5a5"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/re_first"
+        android:background="#323232"></View>
+
+    <RelativeLayout
+        android:id="@+id/re_second"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/wuliu" />
+
+        <TextView
+            android:id="@+id/txt_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="物流状态"
+            android:textColor="#464646"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/txt_second"
+
+            android:layout_below="@+id/txt_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="承运来源"
+            android:layout_marginTop="5dp"
+            android:textColor="#787878"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/txt_third"
+            android:layout_below="@+id/txt_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="平台电话"
+            android:layout_marginTop="5dp"
+            android:textColor="#787878"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/txt_four"
+            android:layout_below="@+id/txt_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="运单编号"
+            android:layout_marginTop="5dp"
+            android:textColor="#787878"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_yi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#3fc199"
+            android:text="运输中"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_alignTop="@+id/txt_first"
+            android:layout_toRightOf="@+id/txt_first"
+            android:layout_toEndOf="@+id/txt_first" />
+        <TextView
+            android:id="@+id/txt_er"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#787878"
+            android:text="运输中"
+            android:layout_below="@+id/txt_yi"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/txt_first"
+            android:layout_toEndOf="@+id/txt_first" />
+        <TextView
+            android:id="@+id/txt_san"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#787878"
+            android:text="62312453"
+            android:layout_below="@+id/txt_er"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/txt_first"
+            android:layout_toEndOf="@+id/txt_first" />
+        <TextView
+            android:id="@+id/txt_si"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#787878"
+            android:text="88521564346816"
+            android:layout_below="@+id/txt_san"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/txt_first"
+            android:layout_toEndOf="@+id/txt_first" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#323232"
+        android:layout_below="@+id/re_second"
+        android:layout_marginTop="0.5dp">
+    </View>
+    <ListView
+        android:id="@+id/list_logistics"
+        android:layout_below="@+id/re_second"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</RelativeLayout>

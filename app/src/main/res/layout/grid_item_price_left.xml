@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_detail_num_grade"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="44dp"
+        android:layout_marginLeft="9dp"
+        android:gravity="center_vertical"
+        android:text="1件起批"
+        android:textSize="18dp"
+        android:textColor="#1c2931"/>
+
+    <TextView
+        android:id="@+id/tv_detail_num_price"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="1080/件"
+        android:textSize="18dp"
+        android:textColor="#1c2931"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+        <item name="android:button">@drawable/checkboc_select</item>
+
+        <item name="android:paddingLeft">3dp</item>
+
+        <item name="android:maxHeight">20dp</item>
+
+    </style>
+</resources>

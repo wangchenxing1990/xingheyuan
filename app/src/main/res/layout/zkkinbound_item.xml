@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+               />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView3"
+                android:text="【绿色联盟】- 红心火龙果"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textViewqianshufuhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/textView12"
+                android:layout_toRightOf="@id/textView12"
+                android:text="￥"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/textView12"
+                android:layout_marginRight="10dp"
+                android:text="186"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp"
+                android:layout_alignRight="@id/textViewqianshufuhao"/>
+
+
+            <TextView
+                android:id="@+id/textViewshuliang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="30dp"
+                android:layout_alignTop="@+id/textView12"
+                android:layout_toRightOf="@id/textView12"
+                android:text="X"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/shuliang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="30"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_marginLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_marginRight="10dp"
+                android:text="合计(不退运费 ￥ "
+                android:textColor="#5a5a5a"
+                android:id="@+id/heji"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_marginRight="10dp"
+                android:text="150.00"
+                android:layout_toRightOf="@id/heji"
+                android:textColor="#5a5a5a"
+                android:id="@+id/yunfei"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/yunfei"
+                android:text=") : "
+                android:id="@+id/fuhao"
+                android:textColor="#5a5a5a" />
+
+            <TextView
+                android:layout_toRightOf="@id/fuhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="5580"
+                android:textColor="#5a5a5a"
+                android:id="@+id/zongjia"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#3d4245"
+            android:textStyle="bold"
+            android:text="待收货"
+            android:layout_below="@+id/rl_first"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView24" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/lvbiankuang"-->
+            <!--android:textColor="#3fc199"-->
+            <!--android:text="查看物流"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:paddingTop="3dp"-->
+            <!--android:paddingBottom="3dp"-->
+            <!--android:layout_alignBottom="@+id/textView24"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="97dp"-->
+            <!--android:layout_marginEnd="97dp"-->
+            <!--android:id="@+id/text_chakan" />-->
+        <TextView
+            android:id="@+id/text_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lvbiankuang"
+            android:textColor="#3fc199"
+            android:text="确认收货"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            android:layout_alignTop="@+id/text_chakan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

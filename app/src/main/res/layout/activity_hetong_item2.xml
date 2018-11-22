@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/my_HTht2"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView
+            android:id="@+id/my_ht2_hetong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="平台入住合同"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:textColor="#666666"/>
+        <TextView
+            android:id="@+id/my_ht2_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间：2016.8.19"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:textColor="#808080"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#dddddd"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蓝莓"
+            android:textSize="12dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#808080"
+            android:id="@+id/my_ht2_goodsname" />
+        <TextView
+            android:id="@+id/my_ht2_orderdetal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单详情"
+            android:textSize="12dp"
+            android:textColor="#3fc199"
+            android:layout_marginRight="23dp"
+            android:layout_marginEnd="23dp"
+            android:layout_alignTop="@+id/my_ht2_goodstock"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20吨"
+            android:textColor="#808080"
+            android:textSize="12dp"
+            android:id="@+id/my_ht2_goodstock"
+            android:layout_alignTop="@+id/my_ht2_goodsname"
+            android:layout_toRightOf="@+id/my_ht2_goodsname"
+            android:layout_toEndOf="@+id/my_ht2_goodsname"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

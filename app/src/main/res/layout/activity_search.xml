@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhy.xhyapp.SearchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#3fc199"
+        android:id="@+id/relativeLayout">
+        <LinearLayout
+            android:id="@+id/linearLayout_first"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <LinearLayout
+                android:id="@+id/ll_cancel"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:id="@+id/txt_cancel"
+                    android:layout_width="12dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/fanhuisanjiao"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="3">
+                <EditText
+                    android:textColor="#666666"
+                    android:paddingLeft="5dp"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp"
+                    android:id="@+id/editText"
+                    android:drawableRight="@drawable/sousuo_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:autoText="true"
+                    android:background="@drawable/shou_ye_07" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_sousuo"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/search_txt_sousuo"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="搜索"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp"></ListView>
+</RelativeLayout>

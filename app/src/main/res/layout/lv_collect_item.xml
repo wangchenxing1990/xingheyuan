@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xhy.xhyapp.view.SwipeLayoutConllection xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipelayout"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="#ffffff"
+    tools:context="com.xhy.xhyapp.view.SwipeLayoutConllection">
+
+    <LinearLayout
+        android:id="@+id/lin_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/delete_red"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:id="@+id/iv_fruit_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/honey_peach" />
+
+        <TextView
+            android:id="@+id/tv_fruit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="58dp"
+            android:layout_toEndOf="@+id/iv_fruit_image"
+            android:layout_toRightOf="@+id/iv_fruit_image"
+            android:text="【绿色联盟】-澳洲水蜜桃"
+            android:textColor="#323232"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_fruit_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_toEndOf="@+id/iv_fruit_image"
+            android:layout_toRightOf="@+id/iv_fruit_image"
+            android:text="  库存40吨"
+            android:textColor="#a0a0a0"
+            android:textSize="13dp" />
+    </RelativeLayout>
+
+</com.xhy.xhyapp.view.SwipeLayoutConllection>

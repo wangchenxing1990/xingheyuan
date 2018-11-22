@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.xhy.xhyapp.storeactivity.ReturnApplyActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_first"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#3fc199">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="40dp"
+            android:layout_height="44dp">
+
+            <ImageView
+                android:id="@+id/iv_shop_back"
+                android:layout_width="12dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/back_collect" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="退货申请"
+            android:textColor="#f8f8f8"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_second"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/rl_first"
+        android:background="#f0f0f0">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/wuliu" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:text="【绿色联盟】- 红心火龙果"
+            android:textColor="#5a5a5a"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView12"
+            android:layout_marginRight="10dp"
+            android:text="￥    186"
+            android:textColor="#5a5a5a"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="X      30"
+            android:textColor="#5a5a5a"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="合计(不退运费 ￥ 150.00) : 5580"
+            android:textColor="#5a5a5a" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_third"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/rl_second">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="退货原因"
+            android:textColor="#505050"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:text="卖家未及时发货"
+            android:textColor="#646464"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/rl_third">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:text="退货说明"
+            android:textColor="#505050"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView16"
+            android:layout_alignStart="@+id/textView16"
+            android:layout_below="@+id/textView16"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:text="    因卖家未在规定时间内及时发货，需要进行退货。并与卖家沟通，达成一致意见，决定给予退货。"
+            android:textColor="#646464"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/rl_fourth">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="凭证"
+            android:textColor="#505050"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_iamge"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textView15"
+            android:layout_toRightOf="@+id/textView15"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/gv_prove"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:minHeight="15dp"
+                android:numColumns="3"
+                android:verticalSpacing="15dp"></GridView>
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:background="@drawable/pingzhneg002" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:background="@drawable/pingzhneg001" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:background="@drawable/pingzhneg003" />-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_yi"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/rl_fifth"
+        android:layout_marginTop="10dp"
+        android:background="#323232" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sixth"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/view_yi">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="是否同意"
+            android:textColor="#505050"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_toEndOf="@+id/textView17"
+            android:layout_toRightOf="@+id/textView17"
+            android:background="@drawable/huibiankuang"
+            android:paddingLeft="12dp"
+            android:textColor="#5a5a5a"
+            android:text="是" />
+
+        <TextView
+            android:id="@+id/txt_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:textColor="#5a5a5a"
+            android:layout_toEndOf="@+id/textView17"
+            android:layout_toRightOf="@+id/textView17"
+            android:background="@drawable/huibiankuang"
+            android:paddingLeft="12dp"
+            android:text="否" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@+id/rl_sixth">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="补充说明"
+            android:textColor="#505050"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/rl_kuang"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:background="@drawable/kuang_24"
+            android:layout_below="@id/textView18"
+
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/with_btn"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape04"
+        android:text="同意"
+        android:textColor="#f8f8f8"
+        android:textSize="15sp" />
+
+</RelativeLayout>

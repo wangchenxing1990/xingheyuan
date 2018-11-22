@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/add_popuwindow_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/back_add_customer"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加客服"
+            android:textColor="#3c3c3c"
+            android:textSize="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tanchuang"
+            android:layout_marginRight="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_add_qq"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="QQ"
+                    android:textSize="14dp"
+                    android:textColor="#5a5a5a"
+                    android:gravity="center"
+                    android:background="@drawable/tanchaung_green_left"/>
+                <TextView
+                    android:id="@+id/tv_add_wechart"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="微信"
+                    android:textSize="14dp"
+                    android:textColor="#5a5a5a"
+                    android:gravity="center"
+                    android:background="@drawable/white_middle"/>
+                <TextView
+                    android:id="@+id/tv_add_call"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="电话"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:textColor="#5a5a5a"
+
+                    android:background="@drawable/white_right"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ed_input_QQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/input_edittext"
+                android:hint="请输入QQ号码"
+                android:paddingTop="9dp"
+                android:inputType="number"
+                android:paddingBottom="9dp"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="9dp"
+                />
+
+            <EditText
+                android:id="@+id/ed_input_wechert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:background="@drawable/input_edittext"
+                android:hint="请输入微信号码"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:textSize="16dp"
+                android:paddingLeft="8dp"
+                android:visibility="gone"
+                android:layout_marginBottom="9dp"
+                />
+
+            <EditText
+                android:id="@+id/ed_input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/input_edittext"
+                android:hint="请输入电话号码"
+                android:paddingTop="9dp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:paddingBottom="9dp"
+                android:textSize="16dp"
+                android:paddingLeft="8dp"
+                android:visibility="gone"
+                android:layout_marginBottom="9dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_add_customer_cancel"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="取消"
+                android:textColor="#3fc199"
+                android:textSize="24dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_add_customer_sure1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="确定"
+                android:textSize="24dp"
+                android:textColor="#3fc199"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

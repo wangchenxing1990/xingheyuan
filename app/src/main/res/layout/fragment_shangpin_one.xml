@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/shangpin_one_left"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </ListView>
+        <Button
+            android:id="@+id/shangpin_one_home"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shangpin_12"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/shangpin_03"/>
+            <ListView
+                android:id="@+id/shangpin_one_regiht"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"></ListView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/shangpin_one_sure"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#EEEEEE"
+            android:text="确定"
+            android:textSize="16dp"
+            android:textColor="#5a5a5a"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

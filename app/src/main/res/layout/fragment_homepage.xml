@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xhy.xhyapp.fragment.HomepageFragment">
+
+    <RelativeLayout
+        android:id="@+id/ll_shouye"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#3fc199">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1">
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shou_ye_04" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/edit_homepage"
+                    android:drawableRight="@drawable/sousuo_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shou_ye_07"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_saoyisao"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/saoyisao" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

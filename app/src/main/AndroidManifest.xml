@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xhy.xhyapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/denglu_logo_03"
+        android:label="绿色联盟"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+
+        </activity>
+        <activity android:name="com.zxing.activity.CaptureActivity" />
+        <activity android:name=".HomeSearchActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".homepageactivity.CollectActivity" />
+        <activity android:name=".ApplyActivity" />
+        <activity android:name=".NextActivity" />
+        <activity android:name=".purchaseactivity.InportFruitActivity" />
+
+        <activity android:name=".ListActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".XieyiActivity" />
+        <activity android:name=".RegisteroneActivity" />
+        <activity android:name=".RegisterShenActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".storeactivity.RegisterStoreActivity" />
+        <activity android:name=".storeactivity.StoreActivity" >
+
+        </activity>
+        <activity android:name=".storeactivity.CommodityControlActivity" />
+        <activity android:name=".storeactivity.LogisticsActivity" />
+        <activity android:name=".storeactivity.ShopDetailActivity" />
+        <activity android:name=".storeactivity.CustomActivity" />
+        <activity android:name=".storeactivity.RemindActivity" />
+        <activity android:name=".storeactivity.ReturnApplyActivity" />
+        <activity android:name=".storeactivity.SpaceImageDetailActivity" />
+        <activity android:name=".storeactivity.AgreeApplyActivity" />
+        <activity android:name=".myactivity.ShippingAddressManagementActivity" />
+        <activity android:name=".myactivity.MyPurchaseActivity" />
+        <activity android:name=".myactivity.SetActivity" />
+        <activity android:name=".myactivity.AccountManagementActivity" />
+        <activity android:name=".myactivity.InboundDetailActivity" />
+        <activity android:name=".myactivity.DeliveredDetailActivity" />
+        <activity android:name=".myactivity.RefundActivity" />
+        <activity android:name=".myactivity.ReFundSuccessActivity" />
+        <activity android:name=".myactivity.BepayDetailActivity" />
+        <activity android:name=".myactivity.EditAddActivity" />
+        <activity android:name=".myactivity.SubmitActivity" />
+        <activity android:name=".myactivity.ReturnActivity" />
+        <activity android:name=".myactivity.PingtaiNoticeActivity" />
+        <activity android:name=".myactivity.CommonProblemActivity" />
+        <activity android:name=".myactivity.SuggestionActivity" />
+        <activity android:name=".myactivity.AboutPlatformActivity" />
+        <activity android:name=".myactivity.KeHuZiLiaoActivity" />
+        a<activity android:name=".myactivity.HetongActivity"></activity>
+        <activity android:name=".myactivity.HeTongDetalActivity"></activity>
+<activity android:name=".SearchActivity"></activity>
+        <activity android:name=".storeactivity.ApplyAmplificationActivity" />
+        <activity android:name=".myactivity.ApplyRecordActivity" />
+        <activity android:name=".myactivity.ApplyDetailsActivity" />
+        <activity android:name=".myactivity.ConfirmOrderActivity" />
+        <activity android:name=".myactivity.OffLineActivity" />
+        <activity android:name=".purchaseactivity.IconTextDetailActivity" />
+        <activity android:name=".myactivity.AddAddressActivity"></activity>
+        <activity android:name=".purchaseactivity.ProductDetailActivity" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57bff012e0f55a2363001eba" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="cf91a194e8e111fcfb3ef31c9f109d7f" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" >
+        </meta-data>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.xhy.xhyapp.RegisteroneActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#3fc199">
+
+        <Button
+            android:id="@+id/rg_one_back"
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/fanhuisanjiao" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="match_parent"></TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zhuceshoujihao_03" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <EditText
+                    android:id="@+id/reg_one_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:hint="请输入手机号"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/reg_one_getNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:text="获取验证码" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ECEBEC"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/zhuceshoujihao_07" />
+
+                <EditText
+                    android:id="@+id/reg_one_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请输入手机验证码"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ECEBEC"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/zhuceshoujihao_10" />
+
+                <EditText
+                    android:id="@+id/reg_one_password"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请输入密码"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ECEBEC"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/reg_one_zhuce"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape04"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reg_one_agree"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/yuanyuan_04" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 已阅读并同意"
+                android:textColor="#c9c9c9"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/reg_one_xieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 《绿色联盟服务协议》"
+                android:textColor="#848484"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

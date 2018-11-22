@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"></TextView>
+
+        <ImageView
+            android:id="@+id/fragment_shangpin_three_image1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pitaya1" />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:id="@+id/fragment_shangpin_three_ShName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="【绿色联盟】— 红心火龙果"
+            android:textSize="12dp"></TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="96dp">
+
+        <Button
+            android:id="@+id/fragment_shangpin_three_bianji"
+            android:layout_width="0dp"
+            android:layout_height="96dp"
+            android:layout_weight="1"
+            android:background="@drawable/tututuu_07"
+            android:text="编辑" />
+
+        <Button
+            android:id="@+id/fragment_shangpin_three_xia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tututuu_08"
+            android:text="下架"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

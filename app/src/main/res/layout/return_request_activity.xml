@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/retuen_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#3fc199">
+
+        <RelativeLayout
+            android:id="@+id/rl_back_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_collect" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="退货申请"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#5acccccc">
+
+        <ImageView
+            android:id="@+id/iv_shuimitao"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/shuimitao" />
+
+        <TextView
+            android:id="@+id/tv_lvselianmeng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/iv_shuimitao"
+            android:text="【绿色联盟】-澳洲水蜜桃"
+            android:textColor="#5a5a5a"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/tv_fruit_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:text="￥  186 "
+            android:textColor="#5a5a5a"
+            android:textSize="15dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fruit_number"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:text="X      3 "
+            android:textColor="#5a5a5a"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="9dp"
+            android:layout_marginRight="9dp"
+            android:text="合计(含运费 ￥ 150.00) : 5580"
+            android:textColor="#5a5a5a"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:text="退款原因"
+        android:textColor="#404548"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_return_because"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tv_input">
+
+        <TextView
+            android:id="@+id/tv_return_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="选择退款原因"
+            android:textColor="#c8c8c8"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"
+            android:src="@drawable/dianjitanchu" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:text="退款说明"
+        android:textColor="#404548"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/shuoming_banckground">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:hint="请输入文字"
+            android:paddingLeft="18dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:text="上传凭证"
+        android:textColor="#404548"
+        android:textSize="16dp" />
+
+    <GridView
+        android:id="@+id/gv_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:numColumns="3"
+        />
+
+    <Button
+        android:id="@+id/btn_submit_succ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="确定提交"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_background"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

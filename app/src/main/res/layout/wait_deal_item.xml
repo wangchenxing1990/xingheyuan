@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cherry"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="9dp"
+        android:id="@+id/imageView4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【绿色联盟】- 红心火龙果"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+             />
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:background="@drawable/huibiankuang"
+            android:gravity="center"
+            android:id="@+id/txt_untreated"
+            android:text="未处理"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="9dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

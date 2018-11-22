@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/rl_first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#f0f0f0">
+
+            <ImageView
+                android:id="@+id/imageView_refund"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/wuliu" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView_refund"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/imageView_refund"
+                android:layout_toRightOf="@+id/imageView_refund"
+                android:text="【绿色联盟】- 红心火龙果"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView_refund"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/textView13"
+                android:text="￥"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView_refund"
+                android:layout_marginRight="10dp"
+                android:text="186"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_num"
+                android:text="X"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="30"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_refund"
+
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_freight"
+                android:text="合计(不退运费 ￥ 150.00) : "
+                android:textColor="#5a5a5a" />
+
+            <TextView
+                android:id="@+id/tv_freight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_refund"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="5580"
+                android:textColor="#5a5a5a" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_examine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/huibiankuang"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="审核中"
+            android:textColor="#505050"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

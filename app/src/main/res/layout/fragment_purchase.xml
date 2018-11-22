@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.xhy.xhyapp.fragment.PurchaseFragment">
+    <LinearLayout
+        android:id="@+id/purchase_ll"
+        android:background="#3fc199"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shou_ye_04" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/edit_sousuo"
+                android:drawableRight="@drawable/sousuo_03"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shou_ye_07"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_saoyisao"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/saoyisao" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/purchase_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:minHeight="50dp"
+        android:verticalSpacing="30dp"
+        />
+
+</RelativeLayout>

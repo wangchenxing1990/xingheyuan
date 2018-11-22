@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhy.xhyapp.ApplyActivity">
+<RelativeLayout
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    >
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="44dp"
+        android:id="@+id/ll_back"
+        android:orientation="horizontal"
+       >
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/fanhui"
+        />
+    </LinearLayout>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="金融申请"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"
+      android:textSize="18sp"
+      android:textColor="#616161"
+      android:id="@+id/textView7" />
+
+</RelativeLayout>
+    <View
+        android:layout_below="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/hengxian"/>
+    <ImageView
+        android:id="@+id/image_lv"
+        android:layout_below="@+id/relative"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/apply_lvsekuang"/>
+    <View
+        android:layout_below="@+id/image_lv"
+        android:layout_width="2dp"
+        android:layout_height="150dp"
+        android:background="@drawable/lvhengxian"
+        android:layout_marginLeft="15dp"
+        ></View>
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/image_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#616161"
+        android:text="        亲爱的  0000000000  用户,您现在正在进行  00  吨 选一种水果 在线预订申请，请填写下方协议，填写完整之后我们将在线下与您交易。"/>
+    <View
+        android:layout_width="2dp"
+        android:layout_height="150dp"
+        android:background="@drawable/lvhengxian"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/image_lv"
+        android:layout_alignRight="@+id/image_lv"
+        android:layout_alignEnd="@+id/image_lv"></View>
+    <View
+        android:id="@+id/view003"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/image_lv"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/lvhengxian"
+        android:layout_marginTop="150dp"/>
+    <View
+        android:layout_below="@+id/view003"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="0.5dp"
+        android:background="@drawable/hengxian"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="协议"
+        android:textSize="20sp"
+        android:textColor="#515050"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="确定购买"
+        android:textSize="20sp"
+        android:textColor="#f8f8f8"
+        android:background="@drawable/hongsebeijing"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

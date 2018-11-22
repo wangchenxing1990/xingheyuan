@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/rl_first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/wuliu" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView3"
+                android:text="【绿色联盟】- 红心火龙果"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView13"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/textView13"
+                android:layout_toStartOf="@+id/textView13"
+                android:text="￥"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/textView12"
+                android:layout_marginRight="10dp"
+                android:text="186"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView37"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@+id/textView37"
+                android:layout_toStartOf="@+id/textView37"
+                android:text="X"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="30"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="120dp"
+                android:text="合计(  不退运费 ￥ "
+                android:textColor="#5a5a5a" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView38"
+                android:layout_toLeftOf="@+id/textView41"
+                android:layout_toStartOf="@+id/textView41"
+                android:text="150.00"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView40"
+                android:layout_toLeftOf="@+id/textView39"
+                android:layout_toStartOf="@+id/textView39"
+                android:text=") :"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_totalMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView37"
+                android:layout_alignRight="@+id/textView37"
+                android:layout_alignTop="@+id/textView41"
+                android:text="5588"
+                android:textColor="#5a5a5a"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_first"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="待收货"
+            android:textColor="#3d4245"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl_chakna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="97dp"
+            android:layout_marginRight="97dp">
+
+            <TextView
+                android:id="@+id/text_chakan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lvbiankuang"
+                android:paddingBottom="3dp"
+
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:text=""
+                android:textColor="#3fc199"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/rl_chakna"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/text_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lvbiankuang"
+                android:paddingBottom="3dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:text=""
+                android:textColor="#3fc199"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

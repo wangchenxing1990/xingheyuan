@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+   >
+
+    <ImageView
+        android:id="@+id/iv_inport"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/honey_peach"/>
+
+    <TextView
+        android:id="@+id/tv_inport"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="【绿色联盟】-澳洲水蜜桃"
+        android:textSize="16dp"
+        android:textColor="#323232"
+        android:layout_alignTop="@+id/iv_inport"
+        android:layout_toRightOf="@+id/iv_inport"
+        android:layout_toEndOf="@+id/iv_inport" />
+
+    <TextView
+        android:id="@+id/tv_inport_price"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:text="￥12"
+        android:textSize="14dp"
+        android:textColor="#fb0c00"
+        android:layout_below="@+id/tv_inport"
+        android:layout_toRightOf="@+id/iv_inport"
+        android:layout_toEndOf="@+id/iv_inport"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_inport_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="最低起批10吨"
+        android:background="@drawable/weight"
+        android:textSize="14dp"
+        android:textColor="#3fc199"
+        android:layout_below="@+id/tv_inport_price"
+        android:layout_toRightOf="@+id/iv_inport"
+        android:layout_toEndOf="@+id/iv_inport"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_inport_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="库存20吨"
+        android:textColor="#a0a0a0"
+        android:textSize="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/iv_inport"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="5dp"
+       />
+
+    <ImageView
+        android:id="@+id/iv_inport_start"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/start"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="9dp"
+        android:layout_marginRight="9dp"
+       />
+
+</RelativeLayout>

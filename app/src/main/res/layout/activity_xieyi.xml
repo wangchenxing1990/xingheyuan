@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.xhy.xhyapp.XieyiActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="vertical"
+        android:background="#3fc199">
+        <Button
+            android:id="@+id/rg_rg_back"
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:background="@drawable/fanhuisanjiao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="合同内容"
+        android:gravity="center"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="浅谈合同主要内容-------以买卖合同为例 内容摘要：当事人以程序订立合同，意思表示一致，便形成合同条款，构成作为法律行为的合同内容。"/>
+
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="1dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/rg_xieyi_tijiao2"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/yuanyuan_04"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 已阅读并同意"
+                android:textSize="12dp"
+                android:textColor="#c9c9c9"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 《绿色联盟合同》"
+                android:textSize="12dp"
+                android:textColor="#848484"
+                /></LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+
+        <Button
+            android:id="@+id/rg_xieyi_tijiao1"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#3fc199"
+            android:text="提交资料"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

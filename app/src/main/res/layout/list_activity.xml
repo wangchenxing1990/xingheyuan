@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_collection"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/iv_inport"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/honey_peach" />
+
+    <LinearLayout
+        android:id="@+id/relay_inport_item"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_toRightOf="@+id/iv_inport"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_inport"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="【绿色联盟】-澳洲水蜜桃"
+            android:textColor="#323232"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_inport_price"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_below="@+id/tv_inport"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="￥12"
+            android:textColor="#fb0c00"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_inport_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_below="@+id/tv_inport_price"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/weight"
+            android:text="10吨起批"
+            android:textColor="#3fc199"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_inport_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:text="库存20吨"
+            android:textColor="#a0a0a0"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_image_start"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <CheckBox
+            android:id="@+id/checkbox_inport_start"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="9dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:src="@drawable/start"
+            android:layout_centerInParent="true"
+            style="@style/MyCheckBox"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/iv_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp"
+        android:src="@drawable/cherry"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="【绿色联盟】-红心火龙果"
+        android:layout_toRightOf="@+id/iv_order"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"
+        android:layout_marginTop="9dp"
+        android:textColor="#5a5a5a"/>
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥       186"
+        android:layout_marginTop="9dp"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#5a5a5a"/>
+
+    <TextView
+        android:id="@+id/tv_totle_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X        30"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_price"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#5a5a5a"/>
+
+    <TextView
+        android:id="@+id/tv_totle_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="合计(不退运费 ￥ 150.00):5580"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_totle_count"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#5a5a5a"/>
+    <TextView
+        android:id="@+id/tv_address_dizhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收货地址:"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_totle_price"
+        android:layout_toLeftOf="@+id/tv_address"
+        android:layout_marginRight="4dp"
+        android:textColor="#5a5a5a"/>
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="河南省郑州市郑东新区东风南路"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_totle_price"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#5a5a5a"/>
+
+    <TextView
+        android:id="@+id/tv_sure_send"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="确认发货"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_address"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape04"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

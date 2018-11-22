@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_logist"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="   【河南省】郑州市东风南路派件员刘大伟正在为您派件"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_shuzi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/txt_logist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="1999-10-45 "/>
+
+</RelativeLayout>

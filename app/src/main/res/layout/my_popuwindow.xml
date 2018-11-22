@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_popuwindow_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#eeeff2">
+        <TextView
+            android:id="@+id/tv_popu_comlete"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#3fc199"
+            android:text="完成"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_insure"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="货物保险问题"
+        android:textColor="#636464"
+        android:background="#e2e5eb"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_weight"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="货物重量问题"
+        android:textColor="#636464"
+        android:background="#e2e5eb"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_platform"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="平台问题"
+        android:textColor="#636464"
+        android:background="#e2e5eb"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_traffic"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="物流问题"
+        android:textColor="#636464"
+        android:background="#e2e5eb"
+        android:gravity="center"
+        />
+
+</LinearLayout>

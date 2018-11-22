@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="44dp"
+              android:orientation="horizontal"
+              android:background="#3fc199">
+
+
+              <ImageView
+                  android:id="@+id/call_back"
+                  android:layout_width="24dp"
+                  android:layout_height="16dp"
+                  android:src="@drawable/back_collect"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentStart="true"
+                  android:layout_marginLeft="10dp"/>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="订单详情"
+                  android:textStyle="bold"
+                  android:layout_centerInParent="true"
+                  android:textSize="18dp"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+              <TextView
+                  android:id="@+id/shenqingjilu"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="采购明细"
+                  android:textColor="#ffffff"
+                  android:textSize="12dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginBottom="7.5dp"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_alignParentEnd="true" />
+          </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="未还本金"
+        android:textColor="#4c4c4c"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+    <EditText
+        android:id="@+id/weihuanbenjinjine"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_rd_background" />
+
+<LinearLayout
+    android:id="@+id/huankuananniubuju"
+    android:layout_marginLeft="20dp"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:background="@drawable/kehuankuan"
+    android:gravity="center"
+    android:layout_marginRight="10dp">
+
+<TextView
+    android:id="@+id/huankuananniu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="还款"
+    android:textColor="#ffffff"
+    android:textSize="15dp"
+    android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="利息"
+        android:textColor="#4c4c4c"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/lixiedu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_rd_background" />
+
+        <LinearLayout
+            android:id="@+id/huanxianniubuju"
+            android:layout_marginLeft="20dp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bukehuankuan"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/huanxianniu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="还息"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<TextView
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="注：1，每月22日手动还款"
+    android:textColor="#eb4646"
+    android:textSize="11dp"
+
+    />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         2，每日利息计算方式=未还本金+日利率"
+        android:textColor="#eb4646"
+        android:textSize="11dp"
+
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         (如：您的日利率为万分之五，未还本金10000元，则每日利息为5元"
+        android:textColor="#eb4646"
+        android:textSize="11dp" />
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="本金还款记录"
+        android:textColor="#4c4c4c"
+        android:textSize="15dp"
+        android:layout_marginTop="160dp"/>
+
+
+<ListView
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/benjinhuankuanjilu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/shenqingjilu1"
+    android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+

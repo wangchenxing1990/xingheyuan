@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/re_photo"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape03">
+        <RelativeLayout
+            android:id="@+id/re_first_phone"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <LinearLayout
+                android:id="@+id/ll_first"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:id="@+id/image001"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/tou01_hui" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/image002"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/tou02_hui" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/image003"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/tou03_hui" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/re_first_phone"
+            android:id="@+id/re_second"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <LinearLayout
+                android:id="@+id/ll_second"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/image004"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/tou04_hui" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/image005"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/tou05_hui" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/image006"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/tou06_hui" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <!--<GridView-->
+        <!--android:id="@+id/gv_photo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="160dp"-->
+        <!--android:layout_marginTop="5dp"-->
+
+        <!--android:minHeight="15dp"-->
+        <!--android:numColumns="3"-->
+        <!--android:verticalSpacing="15dp"></GridView>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/re_second"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn_sure0001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape04"
+                    android:text="确定"
+                    android:textSize="15sp"
+                    android:textColor="#f8f8f8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn_cancel01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape04"
+                    android:text="取消"
+                    android:textSize="15sp"
+                    android:textColor="#f8f8f8" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/re_photo"></RelativeLayout>
+</RelativeLayout>

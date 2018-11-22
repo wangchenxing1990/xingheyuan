@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative_register"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/rg_btn_cancel"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/rg_btn_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="拍照"
+
+            android:textColor="#3fc199"
+            android:textSize="18sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/rg_btn_first"
+            android:background="#323232"></View>
+
+        <Button
+            android:id="@+id/rg_btn_third"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_btn_first"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/shape02"
+            android:text="从相册选择"
+            android:textColor="#3fc199"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_above="@+id/rg_btn_down"
+        android:id="@+id/rg_btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape03"
+        android:text="取消"
+        android:textColor="#3fc199"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/rg_btn_down"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/rg_btn_cancel"
+        android:layout_alignStart="@+id/rg_btn_cancel">
+    </RelativeLayout>
+</RelativeLayout>

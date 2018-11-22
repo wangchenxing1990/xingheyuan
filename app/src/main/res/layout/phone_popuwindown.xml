@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/phone_dpopuwindow_top"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/btn_cancel_select"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btn_take_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="拍照"
+            android:textColor="#3fc199"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/btn_take_phone"
+            android:background="#323232"></View>
+
+        <Button
+            android:id="@+id/btn_system_select"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_take_phone"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/shape01"
+            android:text="从系统选择"
+            android:textColor="#3fc199"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/btn_system_select"
+            android:background="#323232"></View>
+
+        <Button
+            android:id="@+id/btn_phones_select"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_system_select"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/shape02"
+            android:text="从相册选择"
+            android:textColor="#3fc199"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_above="@+id/down"
+        android:id="@+id/btn_cancel_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape03"
+        android:text="取消"
+        android:textColor="#3fc199"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/down"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btn_cancel_select"
+        android:layout_alignStart="@+id/btn_cancel_select">
+    </RelativeLayout>
+</RelativeLayout>

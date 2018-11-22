@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="130dp">
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="9dp"
+            android:text="刘罗锅"
+            android:textColor="#3d4246"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView_name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="13800701230"
+            android:textColor="#3d4246"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:text="河南省郑州市东风南路还是那个东路在劳动法"
+            android:textColor="#3d4246"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view_yi"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="89dp"
+            android:background="#323232" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignLeft="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_below="@+id/view_yi"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/addresshuiseyuan" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView5"
+            android:layout_toRightOf="@+id/imageView5"
+            android:text="默认地址"
+            android:textColor="#3d4246"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/textView20"
+            android:layout_toLeftOf="@+id/textView21"
+            android:layout_toStartOf="@+id/textView21"
+            android:id="@+id/relativeLayout8">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignTop="@+id/textView22"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/textView22"
+                android:layout_toStartOf="@+id/textView22"
+                android:background="@drawable/address_wenjian" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="编辑"
+                android:textColor="#3d4246"
+                android:textSize="15sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_shanchu"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/relativeLayout8"
+            android:layout_alignRight="@+id/textView21"
+            android:layout_alignEnd="@+id/textView21">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/textView23"
+            android:layout_toStartOf="@+id/textView23"
+            android:background="@drawable/address_trash" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textColor="#3d4246"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

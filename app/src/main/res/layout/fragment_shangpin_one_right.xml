@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="96dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"></TextView>
+        <ImageView
+            android:id="@+id/shangpin_one_ritemimage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pitaya1"/>
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/shangpin_one_ritemtext"
+            android:text="【绿色联盟】— 红心火龙果"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="12dp"
+            android:gravity="center_vertical"></TextView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/fragment_shangpin_one_right_buttonxuanze"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="bottom"
+        android:button="@null"
+        android:src="@drawable/shangpin_09"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="9dp"/>
+
+
+</LinearLayout>

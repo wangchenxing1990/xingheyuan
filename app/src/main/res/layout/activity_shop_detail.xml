@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhy.xhyapp.storeactivity.ShopDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#3fc199">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="40dp"
+            android:layout_height="44dp">
+
+            <ImageView
+                android:id="@+id/iv_shop_back"
+                android:layout_width="12dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/back_collect" />
+        </LinearLayout>
+
+        <com.xhy.xhyapp.view.RoundImageView
+            android:id="@+id/image_touxiang"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yuan_03" />
+
+        <TextView
+            android:id="@+id/txt_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_touxiang"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="#f8f8f8"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/re_first"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ll_00000"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="店铺负责人"
+                android:textColor="#5a5a5a"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/textView001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#5a5a5a"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_first"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/re_first"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#323232"></View>
+
+    <LinearLayout
+        android:id="@+id/second_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_first"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="电话"
+                android:textColor="#5a5a5a"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#5a5a5a"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_second"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/second_re"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#323232"></View>
+
+    <LinearLayout
+        android:id="@+id/third_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_second">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="店铺信誉"
+                android:textColor="#5a5a5a"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/shop_image001"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/xing_an" />
+
+            <ImageView
+                android:id="@+id/shop_image002"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/xing_an" />
+            <ImageView
+                android:id="@+id/shop_image003"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/xing_an" />
+            <ImageView
+                android:id="@+id/shop_image004"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/xing_an" />
+
+            <ImageView
+                android:id="@+id/shop_image005"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/xing_an" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_third"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/third_re"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#323232"></View>
+
+    <LinearLayout
+        android:id="@+id/four_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_third">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="店铺DSR评分"
+                android:textColor="#5a5a5a"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/text_pingfen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#ff4e00"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/four_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/four_re"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#323232"></View>
+</RelativeLayout>

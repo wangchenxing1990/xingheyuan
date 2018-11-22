@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_main"
+    tools:context="com.xhy.xhyapp.storeactivity.RegisterStoreActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#3fc199"
+        android:id="@+id/relativeLayout4">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/iv_kaidian_back"
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back_collect" />
+
+
+
+
+        <com.xhy.xhyapp.view.RoundImageView
+            android:id="@+id/image_touxiang"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/yuan_03"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_first"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#323232"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:text="店铺名称"/>
+        <EditText
+            android:background="@null"
+            android:id="@+id/edit_shopname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:hint="至少2个字"
+            android:textSize="15sp"
+            android:layout_height="39dp" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/first_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#323232"
+        android:layout_below="@+id/ll_first"/>
+    <LinearLayout
+        android:id="@+id/ll_second"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll_first"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#323232"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:text="联系电话"/>
+        <EditText
+            android:id="@+id/edit_shopphone"
+            android:inputType="number"
+            android:background="@null"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:hint="座机或手机均可"
+            android:textSize="15sp"
+            android:layout_height="39dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#323232"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/ll_second"/>
+    <LinearLayout
+        android:id="@+id/ll_third"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll_second"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#323232"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:text="真实姓名"/>
+        <EditText
+            android:id="@+id/edit_storename"
+            android:background="@null"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:hint="至少2个字"
+            android:textSize="15sp"
+            android:layout_height="39dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#323232"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/ll_third"
+        android:id="@+id/view" />
+    <Button
+        android:id="@+id/kaidian_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lvsebeijing02"
+        android:layout_below="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="确认开店"
+        android:textSize="18sp"
+        android:textColor="#f8f8f8"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>

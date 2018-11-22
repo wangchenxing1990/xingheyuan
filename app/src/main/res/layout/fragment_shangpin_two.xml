@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/fragment_shangpin_two_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+    <Button
+        android:id="@+id/shangpin_two_sure"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#EEEEEE"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#5a5a5a"
+        android:textSize="16dp" />
+</LinearLayout>
